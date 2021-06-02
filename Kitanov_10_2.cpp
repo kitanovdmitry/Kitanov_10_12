@@ -102,11 +102,11 @@ void Cin_Check(double &number)
 
 int main()
 {
-    double x1 = 0;
+    double x1 = 0.0;
     cout << "Enter real part of your first complex number\n";
     Cin_Check(x1);
 
-    double y1 = 0;
+    double y1 = 0.0;
     cout << "Enter imaginary part of your first complex number\n";
     Cin_Check(y1);
 
@@ -114,11 +114,11 @@ int main()
     cout << x1 << " + " << y1 << "i\n";
 
 
-    double x2 = 0;
+    double x2 = 0.0;
     cout << "\nEnter real part of your second complex number\n";
     Cin_Check(x2);
 
-    double y2 = 0;
+    double y2 = 0.0;
     cout << "Enter imaginary part of your second complex number\n";
     Cin_Check(y2);
 
